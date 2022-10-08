@@ -1,0 +1,138 @@
+.page {
+    background-color: #2A2C2F;
+    margin: 0 auto;
+}
+
+.header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1184px;
+    min-height: 52px;
+    margin: 28px auto 56px;
+}
+
+.header__logo {
+    width: 176px;
+    height: 52px;
+}
+
+.header__lang-link {
+    font-family: "Inter-Regular";
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    color: #fff;
+    text-decoration: none;
+    transition: color .2s linear;
+}
+
+.header__lang-link:nth-child(1) {
+    text-decoration: underline;
+    margin: 0 18px 0 0;
+}
+
+.header__lang-link:hover {
+    color: #AAAAAA;
+}
+
+.lead {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    max-width: 984px;
+    max-height: 1005px;
+    margin: 0 auto 92px;
+}
+
+.lead__title {
+    font-family: "Inter-Black";
+    font-weight: 900;
+    font-size: 96px;
+    line-height: 100px;
+    max-width: 720px;
+    max-height: 200px;  
+    text-align: center;
+    color: #fff;
+    margin: 0 auto 32px;
+}
+
+.lead__subtitle {
+    font-family: "Inter-Regular";
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 36px;
+    max-width: 640px;
+    max-height: 72px;
+    text-align: center;
+    color: #fff;
+    padding: 0;
+    margin: 0 auto 64px;
+}
+
+.lead__image {
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+.lead__caption {
+    font-family: "Inter-Regular";
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 14px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    color: #fff;
+    padding: 0;
+    margin: 8px 0 0;    
+    max-width: 158px;
+    max-height: 14px;
+}
+
+.intro {
+    display: flex;
+    flex-direction: column;
+    max-width: 984px;
+    max-height: 429px;
+    margin: 0 auto 92px;
+}
+
+.intro__title {
+    max-width: 690px;
+    font-family: "Inter-Black";
+    font-weight: 900;
+    font-size: 54px;
+    line-height: 58px;
+    color: #fff;
+    padding: 0;
+    margin: 0 0 40px;
+}
+
+.intro__text {
+    max-width: 690px;
+    font-family: "Inter-Regular";
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 163%;
+    color: #fff;
+    padding: 0;
+    margin: 0 0 33px;
+}
+
+.intro__list {
+    max-width: 690px;
+    font-family: "Inter-Regular";
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 18px;
+    color: #fff;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+.photo-grid {
+    display: grid;
+}
