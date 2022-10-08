@@ -52,7 +52,7 @@
     font-size: 96px;
     line-height: 100px;
     max-width: 720px;
-    max-height: 200px;  
+    min-height: 200px;  
     text-align: center;
     color: #fff;
     margin: 0 auto 32px;
@@ -64,7 +64,7 @@
     font-size: 30px;
     line-height: 36px;
     max-width: 640px;
-    max-height: 72px;
+    min-height: 72px;
     text-align: center;
     color: #fff;
     padding: 0;
@@ -73,6 +73,7 @@
 
 .lead__image {
     width: 100%;
+    box-sizing: border-box;
     background-size: cover;
     background-position: center;
 }
@@ -95,7 +96,7 @@
     display: flex;
     flex-direction: column;
     max-width: 984px;
-    max-height: 429px;
+    min-height: 429px;
     margin: 0 auto 92px;
 }
 
@@ -135,4 +136,97 @@
 
 .photo-grid {
     display: grid;
+    max-width: 1184px;
+    min-height: 671px;
+    margin: 0 auto 92px;
+    grid-template-columns: repeat(auto-fit, 284px);
+    gap: 16px;
+}
+
+.photo-grig__item {
+    max-width: 284px;
+    min-height: 213px;
+    box-sizing: border-box;
+    background-size: cover;
+    background-position: center;
+}
+
+.places {
+    max-width: 984px;
+    margin: 0 auto;
+}
+
+.place {
+    display: grid;
+    max-width: 984px;
+    grid-template-rows: repeat(2, minmax(min-content, max-content));
+    grid-template-columns: repeat(2, 1fr);
+    gap: 48px 40px;
+    margin: 0 0 80px;
+}
+
+.place:last-of-type {
+    margin: 0 0 92px;
+}
+
+.place__title {
+    font-family: "Inter-Black";
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 76px;
+    color: #fff;
+    padding: 0;
+    margin: 0;
+}
+
+.place__website {
+    align-self: end;
+}
+
+.place__website-url-heading {
+    font-family: "Inter-Regular";
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 12px;
+    letter-spacing: 2px;
+    color: #AAA;
+    padding: 0;
+    margin: 0 0 12px;
+}
+
+.place__website-link {
+    font-family: "Inter-Regular";
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    text-decoration: underline;
+    color: #fff;
+    padding: 0;
+    margin: 0;
+    transition: opacity .2s linear;
+}
+
+.place__website-link:hover {
+    opacity: 0.8;
+}
+
+.place__image {
+    max-width: 100%;
+    box-sizing: border-box;
+    background-size: cover;
+    background-position: center;
+}
+
+.place__text_paragraph {
+    font-family: "Inter-Regular";
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 163%;
+    color: #fff;
+    padding: 0;
+    margin: 0 0 26px;
+}
+
+.place__text_paragraph:last-of-type {
+    margin: 0;
 }
