@@ -5,4 +5,9 @@
     position: relative;
     margin: 0 auto 92px;
     z-index: 1;
+    background-image: url(../../images/cover__background.png);
+    box-sizing: border-box;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }

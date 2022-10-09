@@ -1,7 +1,0 @@
-.cover__background {
-    max-width: 100%;
-    position: absolute;
-    z-index: -2;
-    background-size: cover;
-    background-position: center;
-}
