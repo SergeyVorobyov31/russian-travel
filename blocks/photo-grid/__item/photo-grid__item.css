@@ -1,0 +1,7 @@
+.photo-grig__item {
+    max-width: 284px;
+    min-height: 213px;
+    box-sizing: border-box;
+    background-size: cover;
+    background-position: center;
+}
