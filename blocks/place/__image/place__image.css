@@ -4,3 +4,21 @@
     background-size: cover;
     background-position: center;
 }
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+ .place__image {
+    max-width: 440px;
+ }   
+}
+
+@media screen and (min-width: 426px) and (max-width: 768px) {
+    .place__image {
+        max-width: 340px;
+    }
+}   
+
+@media screen and (max-width: 425px) {
+    .place__image {
+        max-width: 320px;
+    }   
+}

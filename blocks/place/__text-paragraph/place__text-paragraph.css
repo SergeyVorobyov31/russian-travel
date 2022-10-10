@@ -11,3 +11,21 @@
 .place__text_paragraph:last-of-type {
     margin: 0;
 }
+
+@media screen and (min-width: 426px) and (max-width: 768px) {
+    .place__text_paragraph {
+        font-size: 16px;
+        margin: 0 0 25px;
+    }
+}   
+
+@media screen and (max-width: 425px) {
+    .place__text_paragraph {
+        max-width: 288px;
+        margin: 0 16px 25px;
+    }
+    
+    .place__text_paragraph:last-of-type {
+        margin: 0 16px;
+    }
+}
