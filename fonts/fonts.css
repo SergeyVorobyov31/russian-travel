@@ -3,6 +3,11 @@
          url(./Inter-Regular.woff2) format("woff2");
     font-family: "Inter-Regular";
     font-weight: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
 }
 
 @font-face {
@@ -10,4 +15,9 @@
          url(./Inter-Black.woff) format("woff2");
     font-family: "Inter-Black";
     font-weight: 900;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
 }
